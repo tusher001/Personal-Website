@@ -2,6 +2,9 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
+section{
+    height: 550px;
+}
 .top-baner{
     background-image: url(img/header-bg.png);
     background-repeat: no-repeat;
@@ -42,4 +45,60 @@ body{
 }
 .half-width p {
     font-size: 12px;
+}
+.biography{
+    background-image: url(img/biography-bg.png);
+    background-repeat: no-repeat;
+    float: left;
+    width: 100%;
+}
+.bio {
+    margin-top: 130px;
+    padding: 5px;
+}
+.letest-work{
+    background-image: url(img/latest-work-bg.png);
+    background-repeat: no-repeat;
+    float: left;
+    width: 100%;
+    margin-top: 40px;
+}
+.letest-work h2{
+    text-align: center;
+}
+.one-third{
+    width: 30%;
+    float: left;
+    margin: 10px; 
+}
+.one-third img{
+    width: 100%;
+    margin: 30px;
+}
+.clint{
+    background-image: url(img/footer-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    float: left;
+    height: 480px;
+    
+}
+.clint-area{
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
+.bg-yellow{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    background-image: linear-gradient(
+    42deg
+    , #f0210e,orange);
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+}
+footer{
+    text-align: center;
 }
